@@ -23,7 +23,7 @@
 
 {application, doctest_pg,
  [{description,  "Doc test test test pg"},
-  {vsn,          "1.2.1"},
+  {vsn,          "1.2.2"},
   {modules,      []},
   {registered,   []},
   {applications, [kernel, stdlib]},
