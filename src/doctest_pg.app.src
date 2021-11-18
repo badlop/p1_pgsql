@@ -21,9 +21,9 @@
 %%%
 %%%----------------------------------------------------------------------
 
-{application, p1_pgsql,
- [{description,  "PostgreSQL driver"},
-  {vsn,          "1.1.13"},
+{application, doctest_pg,
+ [{description,  "Doc test test test pg"},
+  {vsn,          "1.1.1"},
   {modules,      []},
   {registered,   []},
   {applications, [kernel, stdlib]},
@@ -31,7 +31,7 @@
 
   %% hex.pm packaging:
   {licenses, ["EPL 1.1", "Apache 2.0"]},
-  {links, [{"Github", "https://github.com/processone/p1_pgsql"}]}]}.
+  {links, [{"Github", "https://github.com/badlop/p1_pgsql"}]}]}.
 
 %% Local Variables:
 %% mode: erlang
